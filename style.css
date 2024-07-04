@@ -696,6 +696,7 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
+    box-shadow: 4px -6px 6px rgba(0, 0, 0, 0.1);
 }
 
 footer .container {
@@ -739,10 +740,6 @@ footer .list-inline-item a {
     color: #000000;
     margin: 6px 5px; 
 }
-
-/* .navbar-custom {
-    background-color: transparent;
-} */
 
 .parallax-hero {
     position: relative;
