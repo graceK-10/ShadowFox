@@ -31,7 +31,7 @@
   <!-- Navigation bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
     <a href="#" class="navbar-brand">
-      <img src="srn-logo.jpg" alt="SRN Logo" />
+      <img src="images/srn-logo-snip.png" alt="SRN Logo" />
     </a>
     <button
     class="navbar-toggler"
@@ -49,9 +49,8 @@
       <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
       <li class="nav-item px-3"><a class="nav-link" href="#facility">Facility</a></li>
       <li class="nav-item px-2"><a class="nav-link" href="#cultivation">Cultivation</a></li>
-      <li class="nav-item px-1"><a class="nav-link" href="#">Contact</a></li>
       <li class="navbar-divider">|</li>
-      <li class="nav-item pl-3"><a class="nav-link" href="#"><i class="bi bi-person-circle pr-3"></i>Log In</a></li>
+      <li class="nav-item pl-3"><a class="nav-link" href="#contact"><i class="bi bi-person-circle pr-3"></i>Contact Us</a></li>
     </ul>
   </div>
   </nav>
@@ -61,57 +60,67 @@
     <div class="container">
       <h1 class="display-4 mb-4">Southern Right Naturals</h1>
       <h4 class="lead text-center ml-5 mb-5">The First Indoor Licensed Medical Cannabis Cultivation Facility in South Africa.</h4>
-      <a href="#about" class="btn btn-primary btn-lg btn-3d my-5">Learn More</a>
+      <a href="#about" class="btn btn-primary btn-lg btn-3d my-2">Learn More</a>
     </div>
   </header>
 
-  <div class="text-center">
-    <a href="#about" class="arrow-down">
-      &#x2193;
-    </a>
-  </div>
-
   <!-- About Section -->
-  <section id="about" class="py-5 bg-light mb-5">
-    <div class="container">
-      <h2 class="text-center text-dark">About Us</h2>
-      <div class="d-flex justify-content-center">
-        <div class="card-2 mx-5">
-            <img src="images/about-img-1.jpg" alt="About Image 1">
-        </div> 
-      <p class="text-center text-muted w-50 mt-5">
-        We control every aspect of our supply chain.  From cultivation in a controlled indoor environment uitlizing a state of the art grow system, LED lights etc, through to future extraction & purification and product certification via state approved laboratory testing facilities.
-        <br>
-        <br>
-        Vertical integration ensures the highest quality control of our product. We apply rigorous quality control measures in order to conform to the guidelines recommended by the departments that control authorization and licensing for manufacture and sale of active pharmaceutical products.
-        <br>
-        <br>
-        Our mission is to consistently produce highly bio-available pharmaceutical grade cannabis API by optimising the extraction to create ideal therapeutic profiles.
-      </p>
-      <div class="card-2 mx-5">
-        <img src="images/about-img-2.jpg" alt="About Image 2">
+
+<section id="about" class="pt-5 pb-3 bg-light mb-5">
+  <div class="container">
+      <h2 class="text-center mb-5">About Us</h2>
+      <div class="row">
+          <div class="col-12 col-md-4 mb-4">
+              <div class="card-2">
+                  <img src="images/about-img-1.jpg" alt="About Image 1" class="img-fluid rounded about-img">
+              </div>
+          </div>
+          <div class="col-12 col-md-4 mb-4 d-flex align-items-center">
+              <p class="text-center text-dark about-text">
+                  We control every aspect of our supply chain. From cultivation in a controlled indoor environment utilizing a state of the art grow system, LED lights etc, through to future extraction & purification and product certification via state approved laboratory testing facilities.
+                  <br><br>
+                  Vertical integration ensures the highest quality control of our product. We apply rigorous quality control measures in order to conform to the guidelines recommended by the departments that control authorization and licensing for manufacture and sale of active pharmaceutical products.
+                  <br><br>
+                  Our mission is to consistently produce highly bio-available pharmaceutical grade cannabis API by optimising the extraction to create ideal therapeutic profiles.
+              </p>
+          </div>
+          <div class="col-12 col-md-4 mb-4">
+              <div class="card-2">
+                  <img src="images/about-img-2.jpg" alt="About Image 2" class="img-fluid rounded about-img">
+              </div>
+          </div>
       </div>
-    </div>
-    </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- Facility Section -->
-  <section id="facility" class="jumbotron jumbotron-fluid text-center parallax-hero">
+  <section id="facility" class="parallax-section">
     <img src="images/facility-img-1.jpg" alt="Hero Image" />
+    <h2 class="facility-title">Facility</h2>
     <div class="container parent">
-      <div class="card-3">
-        <h2 class="text-center text-dark mt-3 mb-4">Facility</h2>
-      <h4 class="lead text-center fs-3 text-dark mx-3 mb-5">Have a sneak peak into our Our state-of-the-art cultivation facility</h4>
-      <h5 class="text-center text-dark mx-3">Southern Right Naturals is proud to operate the first licensed indoor medical cannabis cultivation facility in South Africa. Our state-of-the-art facility is designed to produce the highest quality cannabis products under strict regulatory compliance.</h5>
-      <h5 class="text-center text-dark mx-3">At Southern Right Naturals, we are dedicated to supporting the health and wellness of our patients by providing them with reliable and effective cannabis treatments tailored to their unique needs.</h5>
+      <div class="card-3">  
+      <h3 class="text-center text-white mx-3 mb-5">Have a sneak peak into our state-of-the-art cultivation facility</h3>
+    </div>
+  </div>
+  <div class="facility-grid d-flex flex-column flex-md-row">
+    <div class="facility-video ml-5 mt-5">
+      <video autoplay muted loop width="90%" preload="auto">
+        <source src="videos/srn-facilities.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="facility-paragraph">
+      <h5 class="text-center text-white mx-3 my-3">Southern Right Naturals is proud to operate the first licensed indoor medical cannabis cultivation facility in South Africa. Our state-of-the-art facility is designed to produce the highest quality cannabis products under strict regulatory compliance.</h5>
+      <h5 class="para1 text-center text-white py-4 my-3">We are dedicated to supporting the health and wellness of our patients by providing them with reliable and effective cannabis treatments tailored to their unique needs.</h5>
     </div>
   </div>
   </section>
 
   <!-- Cultivation Section -->
-  <section id="cultivation" class="cultivation-section">
+  <section id="cultivation" class="process-section">
     <div class="container">
-      <h2 class="text-center text-dark">Cultivation</h2>
+      <h2 class="text-center text-white">Cultivation</h2>
       <div class="horizontal-scroller">
         
         <div class="scroller-item item-1">
@@ -150,7 +159,7 @@
           </div>
           <h3 class="process-title">Harvesting & Curing</h3>
           <p class="process-description">
-            The buds are carefully trimmed, dried under controlled temperature and humidity to preserve quality, and then cured for several weeks to further enhance flavor and potency. After curing, the cannabis is packaged and undergoes quality testing before reaching medical dispensaries.
+            The buds are carefully trimmed, dried under controlled temperature and humidity to preserve quality, and then cured for several weeks to further enhance flavour and potency. After curing, the cannabis is packaged and undergoes quality testing before reaching medical dispensaries.
           </p>
           <p class="process-description">Key Activities: Bud trimming. Controlled drying in a cool, dark space with proper ventilation. Curing for several weeks. Packaging and quality testing</p>
         </div>
@@ -162,13 +171,14 @@
     </div>
   </section>
 
-  <section id="faq" class="py-5 bg-light">
+  <!-- Frequently Asked Questions -->
+  <section id="faq" class="py-5 bg-light py-md-6 py-lg-7">
     <div class="container">
-      <h2 class="text-center text-dark">Frequently Asked Questions</h2>
+      <h2 class="text-center text-dark mb-5">Frequently Asked Questions</h2>
       <div class="accordion" id="faqAccordion">
         <div class="card faq-item">
           <div class="card-header" id="headingOne">
-            <h5 class="mb-0">
+            <p class="mb-0">
               <button
                 class="btn btn-link"
                 type="button"
@@ -177,9 +187,9 @@
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-                What is the Cannatrade Medical Patient Card?
+              What types of testing are conducted on Southern Right Naturals' products?
               </button>
-            </h5>
+            </p>
           </div>
           <div
             id="collapseOne"
@@ -188,15 +198,13 @@
             data-parent="#faqAccordion"
           >
             <div class="card-body">
-              The Cannatrade Medical Patient Card is a program that allows
-              patients to access medical cannabis in a safe, legal, and
-              compliant manner.
+              Our products undergo rigorous testing at state-approved laboratory testing facilities. This includes tests for purity, potency, and safety, ensuring that our products meet all regulatory standards and deliver the intended therapeutic benefits
             </div>
           </div>
         </div>
         <div class="card faq-item">
           <div class="card-header" id="headingTwo">
-            <h5 class="mb-0">
+            <p class="mb-0">
               <button
                 class="btn btn-link collapsed"
                 type="button"
@@ -205,9 +213,9 @@
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                What is the process for obtaining a medical cannabis card?
+              What future advancements is Southern Right Naturals planning in extraction and purification?
               </button>
-            </h5>
+            </p>
           </div>
           <div
             id="collapseTwo"
@@ -216,19 +224,13 @@
             data-parent="#faqAccordion"
           >
             <div class="card-body">
-              To obtain a medical cannabis card, you must first visit a
-              licensed medical cannabis doctor who will evaluate your
-              condition and determine if you qualify for a medical cannabis
-              card. Once approved, you will then need to submit an application
-              to SAHPRA for approval. Once you receive your card, you can
-              visit our online dispensary to legally purchase medical cannabis
-              products.
+              We are continuously optimizing our extraction and purification processes to enhance the bio-availability and therapeutic profiles of our cannabis API. Our goal is to stay at the forefront of innovation in the pharmaceutical cannabis industry.
             </div>
           </div>
         </div>
         <div class="card faq-item">
           <div class="card-header" id="headingThree">
-            <h5 class="mb-0">
+            <p class="mb-0">
               <button
                 class="btn btn-link collapsed"
                 type="button"
@@ -237,9 +239,9 @@
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                What types of medical cannabis products do you offer?
+              How does Southern Right Naturals ensure the quality of its products?
               </button>
-            </h5>
+            </p>
           </div>
           <div
             id="collapseThree"
@@ -248,16 +250,13 @@
             data-parent="#faqAccordion"
           >
             <div class="card-body">
-              We offer a variety of high-quality medical cannabis products,
-              including cannabis flower, edibles, concentrates, tinctures,
-              topicals, and more. Our products are carefully curated to
-              provide relief for a range of medical conditions.
+              We control every aspect of our supply chain, from cultivation to extraction and purification. Our rigorous quality control measures conform to guidelines recommended by the departments that control authorization and licensing for the manufacture and sale of active pharmaceutical products. We also conduct product certification via state-approved laboratory testing facilities.
             </div>
           </div>
         </div>
         <div class="card faq-item">
           <div class="card-header" id="headingFour">
-            <h5 class="mb-0">
+            <p class="mb-0">
               <button
                 class="btn btn-link collapsed"
                 type="button"
@@ -266,9 +265,9 @@
                 aria-expanded="false"
                 aria-controls="collapseFour"
               >
-                Do you offer delivery services for medical cannabis products?
+              What is Southern Right Naturals' approach to cannabis cultivation?
               </button>
-            </h5>
+            </p>
           </div>
           <div
             id="collapseFour"
@@ -277,15 +276,13 @@
             data-parent="#faqAccordion"
           >
             <div class="card-body">
-              Yes, we offer delivery services for our medical cannabis
-              products. Simply select the delivery option at checkout and we
-              will deliver your order discreetly to your doorstep.
+              At Southern Right Naturals, we cultivate our cannabis in a controlled indoor environment utilizing state-of-the-art grow systems and LED lights. This ensures optimal growth conditions and high-quality yield.
             </div>
           </div>
         </div>
         <div class="card faq-item">
           <div class="card-header" id="headingFive">
-            <h5 class="mb-0">
+            <p class="mb-0">
               <button
                 class="btn btn-link collapsed"
                 type="button"
@@ -296,7 +293,7 @@
               >
                 What are the benefits of medical cannabis?
               </button>
-            </h5>
+            </p>
           </div>
           <div
             id="collapseFive"
@@ -314,85 +311,23 @@
             </div>
           </div>
         </div>
-        <div class="card faq-item">
-          <div class="card-header" id="headingSix">
-            <h5 class="mb-0">
-              <button
-                class="btn btn-link collapsed"
-                type="button"
-                data-toggle="collapse"
-                data-target="#collapseSix"
-                aria-expanded="false"
-                aria-controls="collapseSix"
-              >
-                What are the side effects of medical cannabis?
-              </button>
-            </h5>
-          </div>
-          <div
-            id="collapseSix"
-            class="collapse"
-            aria-labelledby="headingSix"
-            data-parent="#faqAccordion"
-          >
-            <div class="card-body">
-              The side effects of medical cannabis are generally mild and
-              temporary, and can include dry mouth, fatigue, dizziness, and
-              increased appetite. However, individual experiences with medical
-              cannabis can vary, and more serious side effects can occur in
-              rare cases. Always consult with a qualified medical professional
-              for advice and guidance on using medical cannabis to treat your
-              condition.
-            </div>
-          </div>
-        </div>
-        <div class="card faq-item">
-          <div class="card-header" id="headingSeven">
-            <h5 class="mb-0">
-              <button
-                class="btn btn-link collapsed"
-                type="button"
-                data-toggle="collapse"
-                data-target="#collapseSeven"
-                aria-expanded="false"
-                aria-controls="collapseSeven"
-              >
-                Can medical aid cover your cannabis prescription?
-              </button>
-            </h5>
-          </div>
-          <div
-            id="collapseSeven"
-            class="collapse"
-            aria-labelledby="headingSeven"
-            data-parent="#faqAccordion"
-          >
-            <div class="card-body">
-              If you're wondering if your health insurance can help you pay
-              for your cannabis medicine, here's the deal: if the medicine has
-              a special code that the insurance people know, then they might
-              help you pay. But getting this special code for cannabis
-              medicine isn't always easy, especially for certain types of it.
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
 
-  <section id="testimonials" class="py-5 bg-dark">
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-5">
     <div class="container">
-      <h2 class="text-center text-white">What Our Patients Say</h2>
+      <h2 class="text-center text-white mb-5">What Our Clients Say</h2>
       <div class="row">
         <div class="col-md-4 fade-in">
           <div class="card testimonial-card">
             <div class="card-body">
-              <p class="card-text">
-                "Cannatrade has the best quality products I've ever used.
-                Their service is excellent.highly recommend ."
+              <p class="card-text text-white">
+                "Southern Right Naturals has the best quality products I've ever used. Their service is excellent. Highly recommend."
               </p>
               <p class="card-text text-right">
-                <small class="text-muted">- John D.</small>
+                <small class="text-muted">- Jessie J.</small>
               </p>
             </div>
           </div>
@@ -400,12 +335,11 @@
         <div class="col-md-4 fade-in">
           <div class="card testimonial-card">
             <div class="card-body">
-              <p class="card-text">
-                "Fast delivery and top-notch products. Highly recommend
-                Cannatrade. They have truly made a difference in my life."
+              <p class="card-text text-white">
+                "Fast delivery and top-notch products. Southern Right Naturals has truly made a difference in my life."
               </p>
               <p class="card-text text-right">
-                <small class="text-muted">- Sarah P.</small>
+                <small class="text-muted">- Saul K.</small>
               </p>
             </div>
           </div>
@@ -413,12 +347,11 @@
         <div class="col-md-4 fade-in">
           <div class="card testimonial-card">
             <div class="card-body">
-              <p class="card-text">
-                "Exceptional quality and customer service. I won't go anywhere
-                else for my medical cannabis. Thank you."
+              <p class="card-text text-white">
+                "Exceptional quality and customer service. I won't go anywhere else for my medical cannabis."
               </p>
               <p class="card-text text-right">
-                <small class="text-muted">- Michael B.</small>
+                <small class="text-muted">- Mike A.</small>
               </p>
             </div>
           </div>
@@ -427,60 +360,37 @@
     </div>
   </section>
 
+  <!-- Gallery -->
   <section id="brands" class="py-5 bg-light">
     <div class="container">
-      <h2 class="text-center text-dark">Our Partners</h2>
+      <h2 class="text-center text-dark" style="font-size: 2.4em;">Gallery</h2>
       <div class="brands-scroller">
         <div class="brand-item">
-          <img src="brands/bgf.png" alt="Brand 1" />
+          <img src="images/about-img-2.jpg" alt="Brand 1" />
         </div>
         <div class="brand-item">
-          <img src="brands/bl.png" alt="Brand 2" />
+          <img src="images/brand-img-1.jpg" alt="Brand 2" />
+        </div> 
+        <div class="brand-item">
+          <img src="images/cultivation-3.1.jpg" alt="Brand 3" />
         </div>
         <div class="brand-item">
-          <img src="brands/budx.png" alt="Brand 3" />
+          <img src="images/about-img-1.jpg" alt="Brand 4" />
         </div>
         <div class="brand-item">
-          <img src="brands/cl.png" alt="Brand 4" />
+          <img src="images/brand-img-2.jpg" alt="Brand 5" />
+        </div> 
+        <div class="brand-item">
+          <img src="images/facility-img-1.jpg" alt="Brand 6" />
         </div>
         <div class="brand-item">
-          <img src="brands/drf.png" alt="Brand 5" />
+          <img src="images/brand-img-1.jpg" alt="Brand 7" />
         </div>
         <div class="brand-item">
-          <img src="brands/h5c.png" alt="Brand 6" />
+          <img src="images/cultivation-4.jpg" alt="Brand 8" />
         </div>
         <div class="brand-item">
-          <img src="brands/hg.png" alt="Brand 7" />
-        </div>
-        <div class="brand-item">
-          <img src="brands/hl.png" alt="Brand 8" />
-        </div>
-        <div class="brand-item">
-          <img src="brands/hush.png" alt="Brand 9" />
-        </div>
-        <div class="brand-item">
-          <img src="brands/lob.png" alt="Brand 10" />
-        </div>
-        <div class="brand-item">
-          <img src="brands/mj.png" alt="Brand 11" />
-        </div>
-        <div class="brand-item">
-          <img src="brands/nb.png" alt="Brand 12" />
-        </div>
-        <div class="brand-item">
-          <img src="brands/oct.png" alt="Brand 13" />
-        </div>
-        <div class="brand-item">
-          <img src="brands/pg.png" alt="Brand 14" />
-        </div>
-        <div class="brand-item">
-          <img src="brands/sd.png" alt="Brand 15" />
-        </div>
-        <div class="brand-item">
-          <img src="brands/tb.png" alt="Brand 16" />
-        </div>
-        <div class="brand-item">
-          <img src="brands/tlj.png" alt="Brand 16" />
+          <img src="images/cultivation-2.jpg" alt="Brand 9" />
         </div>
 
         <!-- Add more brands as needed -->
@@ -488,10 +398,11 @@
     </div>
   </section>
 
-  <section id="contact" class="py-5 bg-light">
+  <!-- Contact Form -->
+  <section id="contact" class="py-2">
     <div class="container">
-      <h2 class="text-center text-dark">Contact Us</h2>
-      <p class="text-center text-muted mb-5">
+      <h2 class="text-center text-dark mt-5" style="font-size: 2.4em;">Contact Us</h2>
+      <p class="text-center text-light mb-4">
         Get in touch with us for any inquiries or support
       </p>
       <div class="row">
@@ -536,15 +447,15 @@
     </div>
   </section>
 
-  <footer class="bg-light text-white py-4">
-    <div class="container text-center text-dark">
+  <footer class="bg-dark text-white py-4 mt-5">
+    <div class="container text-center text-white">
       <p>&copy; 2024 Southern Right Naturals. All rights reserved.</p>
       <ul class="list-inline">
         <li class="list-inline-item">
-          <a href="#" class="text-dark">Privacy Policy</a>
+          <a href="#" class="text-white">Privacy Policy</a>
         </li>
         <li class="list-inline-item">
-          <a href="#" class="text-dark">Terms of Service</a>
+          <a href="#" class="text-white">Terms of Service</a>
         </li>
       </ul>
     </div>
@@ -586,6 +497,19 @@
       var re = /\S+@\S+\.\S+/;
       return re.test(email);
     }
+
+    // Navbar scrolling feature
+    window.addEventListener('scroll', function() {
+    const navbar = document.querySelector('.navbar');
+    const logo = document.querySelector('.navbar-brand img');
+    if (window.scrollY > 50) {
+      navbar.classList.add('scrolled');
+      logo.classList.add('scrolled-logo');
+    } else {
+      navbar.classList.remove('scrolled');
+      logo.classList.remove('scrolled-logo');
+    }
+  });
   </script>
 </body>
 </html>
