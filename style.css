@@ -386,6 +386,15 @@ body {
     color: #EFAB06 !important;
 }
 
+.navbar-collapse {
+    background-color: #fff; /* White background for nav links when navbar is expanded */
+    margin-top: 0.5em;
+  }
+
+  .navbar-collapse .navbar-nav {
+    align-items: center;
+  }
+
 .jumbotron {
     position: relative;
     height: 79vh;
@@ -931,17 +940,11 @@ footer .list-inline-item a {
 
     .facility-paragraph {
         width: 100%; 
-        margin-top: 5em;
+        margin-top: 6em;
         text-align: left; 
         font-size: 6px;
     }
-    .facility-paragraph .para1{
-        width: 120%; 
-        margin-top: 0.5em;
-        text-align: left; 
-        font-size: 17px;
-        margin-right: 17em;
-    }
+    
 }
 
 html {
@@ -996,12 +999,25 @@ html {
     .about-text {
         font-size: 0.69em;
     }
+    .facility-paragraph .para1{
+        width: 150%; 
+        text-align: center; 
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        /* font-size: 17px; */
+        margin-right: 16em;
+        margin-top: 4em;
+    }
     #cultivation h2 {
         font-size: 2em; 
-        margin-top: 3em;
+        margin-top: 5em;
     }
     .process-section {
         margin-top: 22rem;
+    }
+    .navbar-divider {
+        display: none;
     }
     .testimonial-card {
         height: 350px; 
@@ -1009,7 +1025,11 @@ html {
     }
 }
 
-@media (max-width: 767px) {   
+@media (max-width: 767px) {  
+    .parallax-hero img {
+        height: 100vh;
+        display: fixed;
+    } 
     .jumbotron h1 {
         margin-left: 1.6em;
         width: 200%;
@@ -1042,6 +1062,18 @@ html {
     .card-3{
         margin-left: 1em;
         margin-bottom: 4em;
+    }
+    .navbar-divider {
+        display: none;
+    }
+    .testimonial-card {
+        height: 200px; 
+        overflow: hidden; 
+        margin-bottom: 1em;
+    }
+    #cultivation h2 {
+        /* font-size: 2em;  */
+        margin-top: 3.5em;
     }
 }
 
